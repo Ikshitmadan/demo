@@ -1,0 +1,49 @@
+li{
+
+    list-style: none;
+    margin-left:2rem;
+}
+
+.image{
+    height: 800px;
+    width: 1400px;
+}
+h1{
+    margin: left 3em; ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.skills {
+    display: flex;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer>p{
+    font-size: 25px;
+}
+.skills>div{
+    padding: 1rem;
+    margin-left: 1vw;
+    width: 30vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+a:link, a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: lightpink;
+}
+a{
+    text-decoration: none;
+}
